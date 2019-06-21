@@ -1,11 +1,23 @@
+# Application specific
+/fortune
+
+# GCC
+
+*.o
+
+# Emacs
+*~
+
 # http://www.gnu.org/software/automake
 
+Makefile
 Makefile.in
 /ar-lib
 /mdate-sh
 /py-compile
 /test-driver
 /ylwrap
+/.deps
 
 # http://www.gnu.org/software/autoconf
 
@@ -17,6 +29,9 @@ Makefile.in
 /config.guess
 /config.h.in
 /config.sub
+/config.log
+/config.h
+/config.status
 /configure
 /configure.scan
 /depcomp
